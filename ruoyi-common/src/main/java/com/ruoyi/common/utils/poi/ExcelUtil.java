@@ -277,7 +277,7 @@ public class ExcelUtil<T>
             if (headLastRow > headFirstRow)
             {
                 sheet.addMergedRegion(new CellRangeAddress(rownum, rownum, headFirstRow, headLastRow));
-            }
+            }   
             rownum++;
         }
     }

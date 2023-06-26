@@ -176,6 +176,7 @@
                 <artifactId>ruoyi-product</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 

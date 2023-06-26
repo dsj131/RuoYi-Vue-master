@@ -26,7 +26,7 @@ public class SysProductServiceImpl implements ISysProductService
      * @return 产品
      */
     @Override
-    public SysProduct selectSysProductByProductId(Long productId)
+    public SysProduct   selectSysProductByProductId(Long productId)
     {
         return sysProductMapper.selectSysProductByProductId(productId);
     }
